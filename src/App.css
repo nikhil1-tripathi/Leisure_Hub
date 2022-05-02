@@ -1,0 +1,43 @@
+.App {
+  background-color: red;
+}
+
+
+@media(max-width : 700px) {
+  .App {
+    padding-top: 70px;
+  }
+}
+
+.pagetitle {
+  text-transform: uppercase;
+  display: flex;
+  width: 250px;
+  font-style: italic;
+  margin: auto;
+  justify-content: center;
+  font-size: 4vw;
+  /* color: burlywood; */
+  /* background-color: palevioletred; */
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+  margin-top: 60px;
+}
+
+.pagetitle:hover {
+  box-shadow: 0px 2px 1.2px palegoldenrod;
+  background-color: palevioletred;
+}
+
+
+
+@media (max-width:1000px) {
+  .pagetitle {
+    font-size: 6.4vw;
+  }
+}
+
+* {
+  scroll-behavior: smooth;
+}

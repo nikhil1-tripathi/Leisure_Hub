@@ -1,0 +1,102 @@
+#Navbar {
+    width: 100%;
+    display: flex;
+    z-index: 100;
+    box-shadow: 0px 1px 5px black;
+    cursor: pointer;
+    position: fixed;
+    /* justify-content: space-around; */
+    background-color: palegoldenrod;
+    height: 60px;
+    /* margin-bottom: 300px; */
+    top: 0;
+    text-align: center;
+    font-size: 22px;
+    /* margin-top: 0px; */
+    z-index: 1000;
+
+}
+
+#Navbar_box1 {
+    display: flex;
+    float: left;
+}
+
+#Navbar_box1>p {
+    margin-top: 0px;
+    color: palevioletred;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+
+
+#Navbar_box2 {
+    display: flex;
+    margin-left: 585px;
+    /* border: 1px solid black; */
+
+}
+
+#Navbar_box2>a {
+    margin-left: 10px;
+    margin-top: 15px;
+    color: palevioletred;
+    font-weight: bolder;
+    padding-left: 5px;
+    font-style: italic;
+}
+
+
+
+
+
+.Navbar_box2_1 {
+    display: flex;
+    /* width: 50px; */
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin-top: -6px;
+    margin-bottom: 6px;
+}
+
+.Navbar_box2_1 p {
+
+    font-size: 14px;
+    margin-top: 0px;
+    padding-right: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    text-decoration: none;
+    outline: none;
+}
+
+
+.icon {
+    margin-left: 12.4px;
+    margin-top: 0px;
+}
+
+.search {
+    margin-left: 5.8px;
+    margin-top: 0px;
+}
+
+#Search>input {
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 40px;
+    width: 280px;
+    height: 28px;
+    margin-top: 14px;
+    outline: none;
+    border-radius: 5px;
+
+}
